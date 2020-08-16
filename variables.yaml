@@ -1,0 +1,5 @@
+browser: Chrome
+base_url: http://automationpractice.com/
+login_email: zelenayakoshka@yandex.ru
+login_password: Qwer1234!
+wait_timeout: 10s
