@@ -1,9 +1,8 @@
-login_page_url: http://automationpractice.com/index.php?controller=authentication&back=my-account
+login_page_url: http://automationpractice.com/index.php?controller=authentication
 email_input_field: id=email
 password_input_field: id=passwd
 submit_button: id=SubmitLogin
 login_success_message: class=info-account
 login_error_message: css=.alert-danger ol
 login_success_message_text: Welcome to your account. Here you can manage all of your personal information and orders.
-login_error_invalid_email: Invalid email address.
-login_error_invalid_password: Authentication failed.
+authentification_error_text: Authentication failed.

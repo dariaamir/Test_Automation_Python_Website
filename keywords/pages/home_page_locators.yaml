@@ -1,0 +1,9 @@
+home_page_url: http://automationpractice.com/index.php
+search_input_field: class=search_query
+sign_in_link: class=login
+category_women_menu_item: xpath=//ul[contains(@class, \"menu-content\")]/li/a[text() = \"Women\"]
+category_dresses_menu_item: xpath =//ul[contains(@class, \"menu-content\")]/li/a[text() = \"Dresses\"]
+product_element: class=product_img_link
+add_to_cart_button: class=ajax_add_to_cart_button
+pop_up: id=Product
+eye_button: class=icon-eye-open

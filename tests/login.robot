@@ -6,5 +6,16 @@ Resource          ../keywords/pages/login_page.robot
 
 *** Test Cases ***
 Login With Correct Cregentials
-    When Login with correct Email: ${login_email} & Password: ${login_password}
-    Then Dashboard Page Should Be Displayed
+    When Login with Email: ${correct_email} & Password: ${correct_password}
+    Then Success message is displayed
+    And User is redirected to the account page
+
+Try To Login With Invalid Email
+    When Login with Email: ${invalid_email} & Password: ${invalid_password}
+    Then Error message is displayed
+    And User is not logged it
+
+Try To Login With Invalid Password
+    When Login with Email: ${correct_email} & Password: ${invalid_password}
+    Then Error message is displayed
+    And User is not logged it
